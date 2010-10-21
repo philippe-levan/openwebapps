@@ -51,7 +51,6 @@ Apps.prototype.logError = function(message) {
 
 Apps.prototype.reload = function() {
   this.installs = [];
-
   for (var i =0 ; i < this.storage.length; i++)
   {
     var key = this.storage.key(i);
